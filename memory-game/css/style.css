@@ -1,0 +1,97 @@
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i');
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+body {
+	font-family: 'Space Mono', monospace, 'Arial';
+	font-size: 20px;
+}
+a {	
+	color: #ff0000;
+}
+
+a:hover {
+    background-color: #ee5f3c;
+}
+
+
+h1 {
+    color: #128381;  
+}
+
+h2 {
+    color: #FED900;    
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+span {
+	color: #ff0000;
+} 
+
+.board {
+    display: inline-block;
+	width: 50%;
+    height: 50%;
+	padding: 0 380px;      
+}
+
+
+
+/* Navigation */
+nav {
+    background-color: #808080;
+}
+
+nav a {
+    background-color: #ffbf00;
+    color: #fff;
+    text-decoration: none;
+    padding: 35px;
+    display: block;
+    float: left;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: solid #000 1px;
+	background-color: #808080;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 8%;
+    float: left;
+    
+}
+
+.card img {
+	height: 200px;
+	width: 150px;
+	border: solid #000 1px;
+	background-color: #f0021d;
+    border-radius: 10px;    
+}
+
+
+/* Footer */
+
+footer {
+	text-align: center;
+    background-color: #808080;
+    clear: both;
+}
+
+
+
+    
